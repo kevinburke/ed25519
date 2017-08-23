@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "install": "node-gyp rebuild",
+    "install": "echo $PATH; env; which node-gyp; node-gyp rebuild",
     "test": "mocha"
   },
   "keywords": [
